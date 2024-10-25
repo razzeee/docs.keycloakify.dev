@@ -17,10 +17,14 @@ First thing you want to do is to fork/clone the Keycloakify Vite[^1] starter tem
 
 {% embed url="https://github.com/keycloakify/keycloakify-starter" %}
 
-Then you can move on to the next section of the documentation:
+Once you've done that you want to read at least thoses two sections of the documentation: &#x20;
 
 {% content-ref url="testing-your-theme/" %}
 [testing-your-theme](testing-your-theme/)
+{% endcontent-ref %}
+
+{% content-ref url="customization-strategies/" %}
+[customization-strategies](customization-strategies/)
 {% endcontent-ref %}
 
 [^1]: There's also a Webpack based starter that you can find [here](https://github.com/keycloakify/keycloakify-starter-webpack).
