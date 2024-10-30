@@ -32,7 +32,7 @@ cd my-monorepo
 git clone https://github.com/keycloakify/keycloakify-starter apps/keycloak-theme
 rm -rf apps/keycloak-theme/.git
 rm -rf apps/keycloak-theme/.github
-rm apps/keycloak-theme/.yarn.lock
+rm apps/keycloak-theme/yarn.lock
 ```
 
 <figure><img src="../../.gitbook/assets/image (116).png" alt="" width="375"><figcaption></figcaption></figure>
