@@ -111,8 +111,9 @@ Then you want to create the following **src/main.tsx** file, you can copy paste 
 ```tsx
 import { createRoot } from "react-dom/client";
 import { StrictMode, lazy, Suspense } from "react";
-import { KcPage, type KcContext } from "./keycloak-theme/kc.gen";
+import { KcPage } from "./keycloak-theme/kc.gen";
 const AppEntrypoint = lazy(() => import("./main.app"));
+import { KcContext } from "./keycloak-theme/login/KcContext.ts"
 
 // The following block can be uncommented to test a specific page with `yarn dev`
 // Don't forget to comment back or your bundle size will increase
